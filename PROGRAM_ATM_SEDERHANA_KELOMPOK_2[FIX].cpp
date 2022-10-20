@@ -1,10 +1,5 @@
 #include <iostream>
-//#include <stdlib.h>
-//#include <iomanip>
-
 using namespace std;
-
-
 
 void kata1(){
 	cout<<"\t\t\t~~~SELAMAT DATANG DI ATM SEDERHANA KELOMPOK 2~~~\n";
@@ -155,7 +150,9 @@ int main(){
 				goto menu;
 				}
 				else
-				cout<<"Maaf Rekening Anda Belum Terdaftar,Silahkan Daftar Terlebih Dahulu";
+				cout<<"Maaf Rekening Anda Belum Terdaftar,Silahkan Daftar Terlebih Dahulu"<<endl;
+				cout<<"Masukkan Sembarang Angka Untuk Kembali Ke Menu Utama: "; cin >> x;
+				goto menu;
 				
 				}
 				else{cout<<endl<<"Terima Kasih Telah Berkunjung";
